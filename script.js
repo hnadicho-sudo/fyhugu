@@ -1,11 +1,11 @@
 let images = [
-  "../img/Ourfirstdate.jpg",
-  "../img/Secdate.jpg",
-  "../img/thirddate.jpg",
-  "../img/socute.jpg",
-  "../img/sofunwthu.jpg",
-   "../img/energyfull.jpg",
-  "../img/thelastdatetillnow.jpg"
+  "Ourfirstdate.jpg",
+  "Secdate.jpg",
+  "thirddate.jpg",
+  "socute.jpg",
+  "sofunwthu.jpg",
+   "energyfull.jpg",
+  "thelastdatetillnow.jpg"
 ];
 
 let captions = [
