@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For You 💖</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="hearts"></div>
+
+<main class="container">
+  <header class="hero">
+    <h1 class="title">For You 💕</h1>
+    <p class="subtitle">A little site I made — for all our moments together.</p>
+    <button class="start-btn" id="startBtn">Open 💌</button>
+  </header>
+
+  <section id="galleryWrap" class="gallery-wrap hidden">
+    <div class="slideshow">
+      <button class="nav prev" id="prevBtn">‹</button>
+      <img id="slide" alt="photo">
+      <button class="nav next" id="nextBtn">›</button>
+    </div>
+    <p id="caption" class="caption"></p>
+
+    <div id="thumbs" class="thumbs">
+      <!-- Thumbnails populated by script or fallbacks in HTML -->
+      <img src="../img/Ourfirstdate.jpg" data-index="0" alt="thumb">
+      <img src="../img/Secdate.jpg" data-index="1" alt="thumb">
+      <img src="../img/thirddate.jpg" data-index="2" alt="thumb">
+      <img src="../img/energyfull.jpg" data-index="3" alt="thumb">
+      <img src="../img/socute.jpg" data-index="4" alt="thumb">
+      <img src="../img/sofunwthu.jpg" data-index="5" alt="thumb">
+      <img src="../img/thelastdatetillnow.jpg" data-index="6" alt="thumb">
+    </div>
+
+    <div class="controls">
+      <button id="closeBtn" class="close">Close ✕</button>
+    </div>
+  </section>
+
+  <section id="final" class="final hidden">
+    <h2>One more thing...</h2>
+    <p id="typing"></p>
+    <button id="replay" class="start-btn">Replay 💞</button>
+  </section>
+
+</main>
+
+<script src="../js/script.js"></script>
+</body>
+</html>
